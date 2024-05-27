@@ -59,7 +59,6 @@ nav{
     margin-top: 10vh;
     min-height: 55vh;
     width: 90%;
-    background-color: red;
     margin-top: 10vh;
     background-image: url("homepage.webp");
     background-size: cover;
@@ -396,9 +395,28 @@ footer{
    
 }
 
-.div1 input{
-    height: 2rem;
-    border: none;
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+form input{
     border-radius: 5px;
-    padding-left: 10px;
+    height: 40px;
+    padding: 5px;
+}
+form button{
+    padding: 1.2vw;
+    border: none;
+    margin-top: 2vw;
+    color: white;
+    background-color: rgb(181, 120, 40);
+    font-size: medium;
+    border-radius: 5px;
+
+}
+
+form button:hover{
+    scale: 1.1;
+    transition: all 0.4s;
 }

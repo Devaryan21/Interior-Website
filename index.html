@@ -104,12 +104,16 @@
             <div class="div1">
                 <h2>GET IN TOUCH</h2>
             </div>
-            <div class="div1">
-                <input type="text" placeholder="Enter your Name">
-                <input type="text" placeholder="Enter Your Email">
-                <input type="text" placeholder="Phone No.">
-                <input type="text" placeholder="Write your Query">
-            </div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="2917596a-705b-4df1-aa69-aa034833afbf">
+            
+                <input type="text" name="name" required placeholder="Enter your name">
+                <input type="email" name="email" required placeholder="Enter your email">
+                <textarea name="message" required placeholder="Enter your message"></textarea>
+                <button type="submit">Submit Form</button>
+            
+            </form>
         </div>
         <div id="foot">
             <div class="icon">
